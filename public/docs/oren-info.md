@@ -37,6 +37,9 @@ Oren is a comprehensive sustainability platform dedicated to empowering business
 ### What is BRSR?
 BRSR (Business Responsibility and Sustainability Reporting) is a framework introduced by the Securities and Exchange Board of India (SEBI) in 2021. It mandates the top 1,000 listed companies in India to disclose quantifiable metrics on sustainability-related factors.
 
+## Why can’t I edit the annual question?
+Sometimes the annual question is locked because it is  a monthly question , fill monthly data to populate annual data.
+
 The framework requires companies to respond to 140 questions, divided into:
 - 98 essential indicators (mandatory)
 - 42 leadership indicators (voluntary)
@@ -838,6 +841,9 @@ As a data reviewer, your role is to verify data against supporting documents and
 6. Click "freeze data" to lock and send for approval (status turns blue)
 7. Unfreeze if changes needed
 8. Use "data unavailable" button if no data exists for a period
+
+Why can’t I edit the annual question?
+Sometimes the annual question is locked because it is  a monthly question , fill monthly data to populate annual data.
 
 This comprehensive guide covers all aspects of using the Oren Sustainability Hub platform for various user roles, from data entry to review and reporting.
 

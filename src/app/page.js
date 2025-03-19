@@ -81,7 +81,7 @@ export default function Home() {
                 Welcome to Oren support. Our AI-powered chatbot can help answer your questions about our product.
             </p>
 
-            <div className="h-[calc(100vh-300px)] max-h-[calc(100vh-300px)] overflow-y-auto my-[1rem]">
+            <div className="h-[70vh] max-h-[70vh] overflow-y-auto my-[1rem]">
                 {messages.map((message, index) => (
                     <Message key={index} message={message.content} user={message.role === 'user'} />
                 ))}
