@@ -309,3 +309,536 @@ You will receive an invitation from the Sustainability Team (Admin role of the t
 As a Supplier / Value Chain Partner, , you will have limited write-only access to all relevant data points and supporting documentation within Oren Sustainability Hub (OSH). This allows you to review and submit  the data with the ability to edit or modify any information. Your role is to ensure that you enter the data that is accurate, complete, and aligned with the required ESG standards, providing an additional layer of verification to the reporting process.
         16. Where will my data be displayed / reflected on the platform?
 As a Supplier/Value Chain Partner, you are required to submit specific ESF data within the Oren Sustainability Hub (OSH). This enables your vendor partner to review and assess the data, gaining insights into the progress of their supply chain sustainability program. Your responsibility is to ensure that the data you provide is accurate, complete, and compliant with the relevant ESG standards.
+
+
+# Oren Sustainability Hub (OSH) User Guide
+
+## Data Review Dashboard Login
+
+### Accessing the Dashboard
+1. Log into the dashboard using your given credentials.
+2. If you've forgotten your password:
+   - Click on the "forget password" option
+   - Enter your email address
+   - Click on the reset request button
+   - You'll receive a password reset email
+   - Click on the reset password link in the email
+   - Set your new password
+   - Return to the login page and log in with your new password
+
+### Reviewer Account Overview
+Once logged in, the reviewer account is similar to the data maker's account. The main screen displays available assessments requiring your approval.
+
+## Data Review Main Screen and Reporting Framework
+
+### Understanding the Reviewer Role
+1. The reviewer account primarily focuses on data review, unlike the data maker's account.
+2. Familiarize yourself with the FAQs and preferences.
+3. Personalize your profile:
+   - Update personal information
+   - Change password
+   - Save changes using the button in the top right corner
+4. Check for assigned plans - if you're assigned any plans, they'll be listed and you can switch between them.
+5. Review available reports by navigating to the data approval section.
+6. Click on 'view report' to see various types of questions filled by the data maker.
+
+### BRSR Framework Structure
+The questions are based on the BRSR framework and divided into three sections:
+- Section A: General disclosure questions (like employee details)
+- Section B: Management and process disclosure
+- Section C: Principal-wise disclosure with multiple questions
+
+## Types of Questions for Data Reviewers
+
+### Question Assignment
+Data reviewers are assigned questions from different sections of the VRSR framework. For example:
+- From Section A (General Disclosure): Principle 3
+- From Section C: Principle 6 (energy consumption)
+
+### Types of Questions Encountered
+- Numeric questions requiring number inputs
+- Descriptive questions requiring written details
+- Yes/No questions
+- Monthly questions (structured according to Indian financier standards, running from April to March)
+- Questions with dropdown menus for selecting units, types of solar energy, electricity, and fuel types
+
+### Reviewer Responsibilities
+As a data reviewer, your role is to verify data against supporting documents and either accept or reject it. Note that not all entities require input.
+
+## Data & Supporting Document Review Process
+
+### Review Workflow Example
+1. In the example scenario, Rahul Sharma is assigned as a data reviewer for the Durgapur plant, reviewing data entered by Poonam.
+2. The data Poonam entered for the Durgapur plant's energy consumption is visible to Rahul with color-coding:
+   - Blue indicates data needing approval
+   - Green represents data filled by the data maker
+
+### Document Verification Process
+1. Select the month to review (e.g., April)
+2. Review the entered data (e.g., solar energy: 265986 kilowatt per hour)
+3. Cross-check the entered data with supporting documents:
+   - Click on the document icon
+   - Download or open the uploaded document
+   - Compare the document data with the entered data
+
+### Approval Actions
+1. If the data is correct, accept it (status turns green)
+2. If there's a discrepancy, reject it
+3. If unsure, click "revert approval" to return data to the approval stage
+4. Use the comment thread for:
+   - Requesting updated documents
+   - Clarifying doubts
+   - Internal communication between reviewer and data maker
+5. If data is rejected, the data maker must enter it again for review
+
+## FAQs for Different User Roles
+
+### Sustainability Team (Admin User) FAQs
+
+#### Profile Setup, Access & User Management
+1. **Profile Setup**
+   - Click 'Preferences' > 'Personal Profile' to edit personal details
+   - Edit company details in 'Company Profile'
+   - Configure basic settings in 'Preferences'
+
+2. **User Types and Permissions**
+   - **Sustainability Team (Admin Role)**: Full administrative control, user management, report management, monitoring progress, notifications
+   - **Collaborator**: Data input for specific departments ("makers")
+   - **Auditor**: Third-party stakeholders for final data validation
+
+3. **Setting Up Organization Boundary**
+   - Click "User Management" > "My Company"
+   - Add company locations as business units and sub-business units
+   - Bulk upload available via excel (.csv) file
+
+4. **Assigning Roles and Permissions**
+   - After defining organizational boundary, assign collaborators as makers and checkers
+   - Each business unit can have multiple makers and checkers
+
+#### Data Collection
+5. **Maker-Checker Workflow**
+   - Data owners (makers) submit data
+   - Checkers validate before data is used for reporting
+   - Each data point assigned both a maker and checker
+
+6. **Data Collection Workflow**
+   - Month-on-Month or Year-on-Year basis
+   - Some questions answered directly through UI
+   - Others require bulk data uploads (.csv)
+
+7. **Data Collection Frequency**
+   - Either Month-on-Month or Year-on-Year basis
+   - Type of collection indicated on each question
+
+8. **Editing Submitted Data**
+   - Collaborators can edit before admin review
+   - If sent for approval, admin must reject to allow edits
+
+9. **Saving Entered Data**
+   - Automatic saving in real-time
+   - No manual saving required
+
+10. **User as Both Maker and Checker**
+    - Possible but only one role accessed at a time
+    - Not recommended to use both simultaneously
+    - Consider upgrading to admin role if needed
+
+11. **Integrating External Data**
+    - Data stream integrations possible
+    - Requires technical assistance from OSH tech team
+
+12. **Red Response Highlight**
+    - Indicates rejection by Admin
+    - Must be re-approved to change to green
+
+13. **Tracking Data Collection Progress**
+    - Use "Progress Dashboard" for real-time updates
+    - Available for specific reports (BRSR and GRI)
+    - Check status question-by-question for other reports
+
+14. **Supporting Documents**
+    - "Guidance" icon specifies required documents
+    - Upload using "document upload" icon
+
+15. **Assigning Data Points**
+    - Use "Assign Question" module
+    - Assign multiple collaborators across different business units
+
+16. **Missed Submission Deadlines**
+    - Automated reminders sent to collaborators & admins
+    - Manual notifications possible
+
+17. **Dashboard Data Review**
+    - Annual, quarterly, or monthly basis
+    - By business unit or sub-business unit
+
+18. **Adding Waste Data**
+    - Month-on-month data entry required
+    - Enter "0" for months with no data
+
+#### GHG Accounting FAQs
+19. **Emission Factors**
+    - Comprehensive Factor Library covering all scopes
+    - Sources: IPCC, DEFRA, EXIOBASE, India GHG Program, US-EPA
+    - Carbon accounting methodology document available
+
+20. **Scope 1 Emissions Calculation**
+    - Quantity-based emission factors for fuels, refrigerants, vehicles
+    - Covers mobile combustion, fugitive emissions, stationary combustion
+
+21. **Scope 2 Emissions Calculation**
+    - Spend-based and quantity-based factors for grid electricity
+    - Sourced from Central Electricity Authority (CEA)
+
+22. **Scope 3 Emissions Calculation**
+    - Spend-based, quantity-based, and distance-based factors
+    - Covers all sub-scopes with trusted sources
+
+23. **Emission Factor Updates**
+    - Regular updates across fiscal years
+    - Notifications sent when updates released
+    - Automatic data migration to latest version
+
+#### Reporting Requirements
+24. **Creating ESG Reports**
+    - Navigate to "Reports" section
+    - Select desired framework (GRI, TCFD, BRSR)
+    - System populates relevant data fields
+
+25. **Custom Reports**
+    - Tailored reports for organizations not using standard frameworks
+    - Based on specific areas (Scope 3, energy, waste)
+
+26. **Supported Frameworks**
+    - BRSR, GRI, CDP, TCFD, and custom reports
+
+27. **Customizing Templates**
+    - Administrators can create custom templates
+    - Align with specific needs or regulatory requirements
+
+28. **Downloading Reports**
+    - Supports multiple ESG frameworks
+    - Select framework from "Reports" section
+    - Platform formats according to chosen standards
+
+#### Target Setting Module
+29. **Setting Sustainability Targets**
+    - "Target Setting" feature for GHG reduction goals
+    - Track SBTi or Net Zero commitments
+    - System pulls relevant data automatically
+    - ESG metrics configurable and trackable
+
+### Collaborators FAQs
+
+#### Profile Setup, Access & User Management
+1. **Profile Setup**
+   - Accounts created by admin
+   - Can update basic preferences and personal details
+   - Cannot edit other settings
+
+#### Data Collection
+2. **Submitting Department Data**
+   - Log in and navigate to "Data Collection"
+   - Input data in assigned fields
+   - Manual entry or document upload options
+
+3. **Supporting Documents**
+   - "Guidance" icon specifies required documents
+   - Upload using "document upload" icon
+
+4. **Unclear Data Points**
+   - Click "Guidance" icon for instructions
+   - Contact Project Manager for clarification
+
+5. **Editing Submitted Data**
+   - Automatic saving in real-time
+   - For submitted data, request Admin to reject
+   - Make edits and resubmit
+
+6. **Data Submission Timeline**
+   - Specific deadlines assigned by Sustainability Team
+   - Automated notifications for reminders
+
+7. **Data Submission Errors**
+   - Checker flags issues and returns data
+   - Notification details errors requiring revision
+
+8. **Reviewing Submission Status**
+   - Navigate to "Submission Status" dashboard
+   - View pending, accepted, or rejected status
+
+9. **Red Response Highlight**
+   - Indicates rejection by Admin
+   - Must be re-approved to change status
+
+10. **Data Validation Notification**
+    - Notification upon validation
+    - Check status in "Data Validation" section
+
+11. **Accessing Multiple Roles**
+    - Possible but one role at a time
+    - Separate tabs not recommended
+    - Consider admin role upgrade if needed
+
+### Auditors FAQs
+
+#### Profile Setup, Access & User Management
+1. **Accessing ESG Data**
+   - Invitation from Sustainability Team
+   - Log in to access assigned data points
+   - View supporting documents
+
+2. **Auditor Access Scope**
+   - Read-only access to data and documentation
+   - Review and validate without editing capability
+
+3. **Viewing Audit Trail**
+   - Navigate to "Audit Log" under relevant data point
+   - Detailed record of actions with timestamps
+
+4. **Requesting Additional Information**
+   - Leave comments on data points
+   - Request clarification or documentation
+
+5. **Validating GHG Calculations**
+   - Review Emission Factor Library
+   - Access carbon accounting methodology document
+
+6. **Ensuring Compliance**
+   - "Guidance" icon outlines required documents
+   - Review requirements and uploaded documents
+
+7. **Quarterly Report Downloads**
+   - Not currently available
+
+8. **Exporting Data for Offline Review**
+   - Download Report -> Excel Detailed option
+   - Available from reporting screen
+
+### Suppliers FAQs
+1. **Data Collection Workflow**
+   - Year-on-Year or one-time activity basis
+   - Direct platform answers or bulk CSV uploads
+
+2. **Editing Submitted Data**
+   - Edit before admin review
+   - Request rejection to make changes after submission
+
+3. **Saving Data**
+   - Automatic real-time saving
+   - No manual saving required
+
+4. **Red Response Highlight**
+   - Indicates rejection by Admin
+   - Must be re-approved to change status
+
+5. **Tracking Collection Progress**
+   - View progress on homepage
+   - Check status question-by-question
+
+6-7. **Supporting Documents**
+   - "Guidance" icon specifies required documents
+   - Upload using "document upload" icon
+
+8. **Unclear Data Points**
+   - Click "Guidance" icon for instructions
+   - Contact Project Manager for assistance
+
+9. **Editing Approved Data**
+   - Automatic real-time saving
+   - Request Admin to reject for editing
+
+10. **Submission Timeline**
+    - Specific deadlines assigned by Sustainability Team
+    - Automated notifications for reminders
+
+11. **Data Submission Errors**
+    - Checker flags issues and returns data
+    - Notification details errors requiring revision
+
+12. **Reviewing Submission Status**
+    - Monitor status on homepage dashboard
+    - Track pending, accepted, or rejected status
+
+13. **Data Validation Notification**
+    - Email notification upon validation
+    - Check status in "Data Validation" section
+
+14. **Accessing ESG Assessment**
+    - Invitation from Sustainability Team
+    - Log in to access assigned assessments
+
+15. **Supplier Access Scope**
+    - Limited write-only access to relevant data
+    - Submit accurate, complete data aligned with ESG standards
+
+16. **Data Display**
+    - Submit specific ESF data
+    - Enables vendor partner review and assessment
+
+## Dashboard Login Methods
+
+### Standard Login Process
+1. Navigate to the dashboard login page
+2. Option to log in using:
+   - Google account
+   - Microsoft account
+   - Direct user credentials (ID and password)
+3. After login, main screen displays available assignments
+
+### Password Reset Process
+1. Click "Forget Password"
+2. Enter email ID
+3. Click "Request"
+4. Receive reset link via email
+5. Set new password
+6. Log back into dashboard
+
+## Dashboard Overview and Preferences Setup
+
+### Main Dashboard Elements
+1. Main screen displays aggregate and overall graphs
+2. Shows scope, emissions factors, and titles
+3. Includes goals section
+4. Displays supply chain section
+
+### Setting Preferences
+1. Navigate to preference section
+2. Go to company profile
+3. Set company name, country, location, industry type
+4. Enter website and PEN number
+5. Save settings
+
+### Profile Setup
+1. Set personal profile details (name, roles, phone, email, department)
+2. Save personal information
+3. Add material topics from provided list
+4. Assign weightage to topics (increase/decrease with plus/minus buttons)
+5. Remove unnecessary topics
+6. Set preferences for date, time, currency format
+7. Choose capture frequency, reporting cycle, number formats
+8. Set automated email reminders
+9. Select working days
+10. Save all preferences
+
+## User Management
+
+### Adding Collaborators
+1. Navigate to User Management
+2. Select "By User" option
+3. Click "Add Collaborator"
+4. Enter collaborator details (name, mobile, email)
+5. Assign collaborator role
+6. Select company assignment
+7. Click "Add User"
+
+### Adding Business Units
+1. Select "By Business Unit"
+2. Click "Add Business Unit"
+3. Enter business unit details (name, country, location)
+4. Click "Add"
+5. Repeat for additional business units
+
+### Adding Sub-Business Units
+1. Click sub-business unit icon
+2. Enter sub-business unit details
+3. Click "Add Sub Business"
+
+### Adding Users to Business Units
+1. Click Plus Human Icon
+2. Enter user details
+3. Select user role
+4. Click "Add"
+5. Verify user assignments
+
+## Creating Reports
+
+### Creating BRSR Comprehensive Report
+1. Click "Add Report"
+2. Select framework (GRI BRSR, BRSR code, scdg)
+3. Choose reporting year date
+4. Name report
+5. Set report due date
+6. Set audit date
+7. Choose auditor
+8. Click "Create Report"
+9. View report by clicking three dots and selecting "View Report"
+10. Download completed report
+
+### Assigning Questions
+1. View report sections (A, B, C)
+2. Identify question types
+3. Use "Assign Question" button to delegate tasks
+4. Navigate to "Daily View"
+5. Select assignee and reviewer
+6. Click "Next"
+7. Select related questions
+8. Finalize assignments
+9. Add more people if needed using "Edit"
+10. Assign individuals to specific questions based on location/department
+11. Designate roles (data filler, maker, checker)
+
+## Assessment Review Process
+
+### Approval and Rejection
+1. Wait for pupils to complete assigned questions
+2. Review responses
+3. Use Accept/Reject buttons
+4. Check attachments by clicking the Attach icon
+5. Download and review supporting documents
+6. Accept if data matches documents (status changes to purple)
+7. Use "Revert Approval" for discrepancies
+8. Provide rejection reason in internal comment section
+
+### Data Status Color Codes
+- Green: Completion for entire year
+- Purple: Approval
+- Orange: Needs rechecking
+- Gray: Data not available
+- Blue: Needs approval
+- Yellow: In progress
+
+## Downloading Reports
+
+### Report Download Process
+1. Navigate to desired report
+2. Select any section
+3. Locate download icon next to submit button
+4. Choose download format (Excel, detailed Excel, PDF)
+5. Click chosen format
+6. Wait for download to complete
+
+## Data Maker Process
+
+### Login and Dashboard
+1. Log in using credentials from email notification
+2. Access sub-business unit account
+3. Navigate dashboard with FAQs, preferences sections
+4. Update personal profile details as needed
+5. Return to main dashboard for data entry
+
+### Data Entry Process
+1. Identify assigned assessments
+2. Switch between plants using drop-down menu
+3. Click "View Report" to start working
+4. Navigate questions on left, sub-questions on right
+5. Enter data for assigned questions according to framework sections
+6. Input data for specific fields (numerical, descriptive, monthly)
+7. Select options from dropdown menus when available
+8. Input entities in appropriate units
+9. System automatically saves data
+10. Monitor data status by color codes
+
+### Additional Features
+1. Use comment icon for internal communication
+2. Submit comments to help others understand dashboard activity
+3. Use attachment button to upload supporting documents
+4. Upload, rename, and verify files as needed
+5. Add notes for final report inclusion
+6. Click "freeze data" to lock and send for approval (status turns blue)
+7. Unfreeze if changes needed
+8. Use "data unavailable" button if no data exists for a period
+
+This comprehensive guide covers all aspects of using the Oren Sustainability Hub platform for various user roles, from data entry to review and reporting.
+
+
